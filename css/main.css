@@ -1,0 +1,428 @@
+/****************************************
+GENREAL
+*****************************************/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#wrapper {
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h3 {
+	margin: 0 0 0.50em 0;
+}
+
+h4{
+	margin: 0;
+}
+
+p {
+	padding-bottom: 2em;
+}
+
+
+
+/****************************************
+HEADING
+*****************************************/
+
+header {
+	float: left;
+	margin: 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	margin: 10px 0;
+	font-size: 1.75em;
+	font-weight: 800;
+	line-height: 0.8em;
+	padding-top: 5px;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+#logo {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#nr-logo {
+	display: block;
+	margin: 10px auto;
+	width: 50px;
+	height: 50px;
+}
+
+.logo-container ul {
+	list-style: none;
+	padding: 0;
+}
+
+
+
+/****************************************
+NAVIGATION
+*****************************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 15px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 17px 10px;
+}
+
+div.second-nav {
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.secondary-nav {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	float: left;
+}
+
+.secondary-nav li {
+	display: inline-block;
+	color: black;
+}
+
+.secondary-nav li:nth-child(2n), 
+.secondary-nav li:nth-child(3n) {
+	padding-left: 8%;
+}
+
+
+
+/****************************************
+FOOTER
+*****************************************/
+
+footer {
+	padding: 50px 0 0 0;
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	color: #ccc;
+}
+
+.social-icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+p#footer-copywright {
+	margin-top: 15px;
+}
+
+#back-to {
+	height: 20px;
+	margin-top: 20px;
+}
+
+
+
+/****************************************
+PAGE PORTFOLIO
+*****************************************/
+
+#gallery {
+	margin: 10px 0 0;
+	padding: 10px 0 0 0;
+	list-style: none;
+	clear: left;
+}
+
+#gallery li {
+	float: left;
+	width: 100;
+	margin: 2.5%;
+	color: #333;
+}
+
+#gallery li a h2 {
+	margin: 0;
+	padding-top: 7px;
+	font-size: 0.85em;
+	text-align: left;
+}
+
+#gallery li a p {
+	padding: 0;
+	margin-top: 0.5em;
+}
+
+#gallery li img:active, 
+#gallery li img:hover, 
+#gallery li img:focus {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+
+
+
+/****************************************
+PAGE WORK
+*****************************************/
+
+ul.work-list {
+	margin: 0 2.5% 0 0 ;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+}
+
+.work-left, .work-right {
+	display: block;
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+
+#back-to {
+	clear: both;
+	float: left;
+}
+
+img.work-img {
+	margin-top: 20px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#acadia-example img.work-img, #logo-example img.work-img {
+	box-shadow: none;
+}
+
+h1.work-title {
+	clear: both;
+	margin: 10px 0;
+	padding: 20px 0;
+	padding-top: 40px;
+	font-size: 2em;
+}
+
+#work-gallery {
+	margin: 15px 0;
+	padding: 0;	
+}
+
+#work-gallery li p {
+	margin: 0;
+}
+
+section.last-comment {
+	padding-top: 30px;
+}
+
+
+
+/****************************************
+PAGE ABOUT
+*****************************************/
+
+section#about {
+	display: block;
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	padding: 0 10px 0 10px;
+}
+
+.profilePhoto {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto 10px;
+}
+
+.contactInfo {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contactInfo a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contactInfo li.mail a {
+	background-image: url('../img/mailto.png');
+}
+
+.contactInfo li.linkedin a {
+	background-image: url('../img/linkedin.png');
+}
+
+.contactInfo li.instagram a {
+	background-image: url('../img/instagram.png');
+}
+
+.contactInfo li.twitter a {
+	background-image: url('../img/twitter.png');
+}
+
+#primary, #secondary {
+	display: block;
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+
+}
+
+
+
+/****************************************
+PAGE RESUME
+*****************************************/
+
+#resume-left, #resume-right {
+	display: block;
+	width: 100%;
+	float: left;
+	margin-top: 50px;
+}
+
+#resume-right ul {
+	list-style: none;
+	text-align: left;
+	padding-left: 0;
+}
+
+button {
+	height: 45px;
+	width: 200px;
+	float: left;
+	clear: both;
+	background-color: #63AAC2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+button:active {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.resume h5 {
+	margin-bottom: 0;
+}
+
+
+
+/****************************************
+COLORS
+*****************************************/
+
+/* site body */
+body {
+	background-color: #fff;
+	color: #444;
+}
+
+/* blue header */
+header {
+	background: #eee;
+
+}
+
+#header-border {
+	border-bottom: 5px solid #ddd;
+}
+
+nav.secondary-nav {
+	background-color: #ddd;
+}
+
+/* logo text */
+h1, h2 {
+	color: #444;
+}
+
+h1.work-title {
+	color: #666;
+	padding-top: 20px;
+	line-height: normal;
+}
+
+h3 {
+	color: #F4976A;
+}
+
+/* links */
+a, a p {
+	color: #444;
+}
+
+/* nav links */
+nav a, nav a:visited {
+	color: #999;
+}
+
+#back-to a:hover, 
+#back-to a:active {
+	color: #F4976A;
+}
+
+nav a.selected, 
+nav a:hover,
+.secondary-nav a.selected, 
+.secondary-nav a:hover,
+.secondary-nav nav a, 
+.secondary-nav nav a:visited {
+	color: #444;	
+}
+
+nav.secondary-nav a {
+	padding-bottom: 3px;
+}
+
+

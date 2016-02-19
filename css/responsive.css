@@ -1,0 +1,223 @@
+/*smartphones in landscape mode and tablets*/
+@media screen and (min-width: 480px) {
+	
+	/****************************************
+	PAGE PORTFOLIO
+	*****************************************/
+
+	.work-gallery li:nth-child(4n) {
+		clear: left;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	#gallery {
+		list-style: none;
+		clear: left;
+	}
+
+	#gallery li {
+		float: left;
+		width: 45%;
+		margin: 2.5%;
+		color: #333;
+	}
+
+
+
+/*large tablets and small desktop*/
+@media screen and (min-width: 640px) {
+
+	/****************************************
+	PAGE ABOUT
+	*****************************************/
+
+	#about {
+		width: 100%;
+		float: left;
+	}
+
+	.profilePhoto {
+		float: left;
+		margin: 0 0 25px 0;
+	}
+
+
+
+	/****************************************
+	TWO COLUMN LAYOUT
+	*****************************************/
+
+	#primary {
+		width: 70%;
+		float: left;
+		padding-left: 5%;
+	}
+
+	#secondary {
+		width: 20%;
+		float: right;
+		padding-left: 5%;
+	}
+
+	#primary, #secondary, #about, #resume {
+		margin-top: 50px;
+	}
+
+	#resume-left {
+		width: 67.5%;
+		float: left;
+		;
+	}
+
+	#resume-right {
+		width: 27.5%;
+		float: right;
+		padding-left: 5%;
+		text-align: center;
+	}
+
+	#resume-right ul {
+		text-align: center;
+	}
+
+	.work-left {
+		width: 67.5%;
+		float: left;
+	}
+
+	.work-right {
+		width: 27.5%;
+		float: right;
+		padding-left: 5%;
+	}
+
+	li.work-right {
+		margin-top: 30px;
+	}
+
+	img.work-img {
+		margin-top: 20px;
+	}
+
+	
+
+	/****************************************
+	HEADER
+	*****************************************/
+
+	header {
+		height: 80px;
+	}
+
+	nav {
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		text-align: right;
+		width: 50%;
+		margin: 35px 0 0 0;
+	}
+
+	nav a {
+		font-size: 1em;
+	}
+
+	.logo-container {
+		float: left;
+		padding-left: 2%;
+		text-align: left;
+		width: 48%;
+		margin-top: 15px;
+	}
+
+	h1 {
+		font-size: 1.5em;
+		display: inline-block;
+		padding-top: 0;
+	}
+
+	h2 {
+		font-size: 0.875em;
+		margin-bottom: 15px;
+	}
+
+	#nr-logo {
+		float: left;
+		margin: 0 5px 0 0;
+		width: 50px;
+		height: 50px;
+	}
+
+	#logo {
+		text-align: left;
+	}
+
+	.logo-container ul li {
+		display: inline-block;
+		text-align: left;
+	}
+
+
+
+	/****************************************
+	PAGE PORTFOLIO
+	*****************************************/
+
+	#wrapper section {
+		float: left;
+		display: block;
+	}
+
+	/***
+	Changes gallery to three-columns at desktop size
+	***/
+	/*#gallery li {
+		width: 28.3333%;
+	}*/
+
+	/*#gallery li:nth-child(3n) {
+		clear: left;
+	}*/
+
+
+
+	/****************************************
+	PAGE ABOUT
+	*****************************************/
+
+	.profilePhoto {
+		float: left;
+		margin: 0 0 25px 0;
+	}
+
+	h3 {
+		clear: both;
+	}
+
+	/****************************************
+	PAGE RESUME
+	*****************************************/
+
+	button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+
+	button:active {
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24);
+	}
+
+	#button {
+		clear: both;
+		display: block;
+		margin: 0px auto;
+	}
+
+
+
+}
+}
+
+
